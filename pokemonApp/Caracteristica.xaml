@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pokemonApp.Caracteristica">
+    <ContentPage.Content>
+       <StackLayout>
+            <Image x:Name="encabezado"/>
+            <StackLayout Orientation="Vertical" Margin="20">
+                <Label x:Name="name" Text="" XAlign="Center" Font="MarkerFelt-Thin,30"/>
+            </StackLayout>
+             <StackLayout >     
+                <ListView x:Name="ListViewHabilidad">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell IsEnabled="false">
+                                <StackLayout Orientation="Horizontal"  Padding="20,0,0,0">
+                                    <Label Text="{Binding Name}" HorizontalOptions="FillAndExpand"
+                                           VerticalTextAlignment="Center" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>  
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

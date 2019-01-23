@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{0AC0046A-C1CE-46E0-A42D-18D3AB15C784}|Default">
+  <MonoDevelop.Ide.ItemProperties.pokemonApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DC510295-F0B9-4414-B311-21CEE3CE428F" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pokemonApp/Detalle.xaml.cs">
+    <Files>
+      <File FileName="pokemonApp/estructuras/Pokemon.cs" Line="57" Column="24" />
+      <File FileName="pokemonApp/Detalle.xaml" Line="22" Column="61" />
+      <File FileName="pokemonApp/Detalle.xaml.cs" Line="64" Column="50" />
+      <File FileName="pokemonApp/Caracteristica.xaml" Line="13" Column="55" />
+      <File FileName="pokemonApp/Caracteristica.xaml.cs" Line="57" Column="1" />
+      <File FileName="pokemonApp/servicios/ApiServices.cs" Line="53" Column="1" />
+      <File FileName="pokemonApp/MainPage.xaml.cs" Line="94" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.pokemonApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

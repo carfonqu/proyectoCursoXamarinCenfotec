@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:pokemonApp" 
+    x:Class="pokemonApp.MainPage"
+    Title="Listado de Pokemon">
+    <ContentPage.Content>
+       <!-- <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">-->
+        <StackLayout>
+            <Image x:Name="encabezado"/>
+            <SearchBar x:Name="search_pokemon" HeightRequest="25" TextChanged="Handle_TextChanged"/>
+            
+                <StackLayout >
+                     
+                    <ListView x:Name="ListViewListado" 
+                              IsRefreshing="{Binding IsBusy}" 
+                              IsPullToRefreshEnabled="true"
+                              ItemSelected="ListViewListado_ItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal"  Padding="20,0,0,0">
+                                        <Label Text="{Binding Name}" HorizontalOptions="FillAndExpand"
+                                               VerticalTextAlignment="Center" />
+                                        <Label x:Name="url" Text="{Binding Url}" IsVisible="false"></Label>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+           
+        </StackLayout>
+             <!--</ScrollView>-->
+    </ContentPage.Content> 
+</ContentPage>

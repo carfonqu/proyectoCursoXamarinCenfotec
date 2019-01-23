@@ -1,0 +1,14 @@
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/Caracteristica.xaml.g.cs
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/Detalle.xaml.g.cs
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/pokemonApp.csproj.CoreCompileInputs.cache
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/pokemonApp.AssemblyInfoInputs.cache
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/pokemonApp.AssemblyInfo.cs
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/pokemonApp.dll
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/pokemonApp.pdb
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/bin/Debug/netstandard2.0/pokemonApp.deps.json
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/bin/Debug/netstandard2.0/pokemonApp.dll
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/bin/Debug/netstandard2.0/pokemonApp.pdb
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/carfonqu/Projects/pokemonApp/pokemonApp/obj/Debug/netstandard2.0/pokemonApp.csprojAssemblyReference.cache
